@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facial Emotion Recognition</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+  <!-- Facial Emotion Recognition -->
+<body>
+    <header>
+        <h1>Facial Emotion Recognition</h1>
+        <p>Detect emotions in real time using your webcam</p>
+       <div class="notice">
+        <a href="camera-section">Home</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+       </div> 
+    </header>
+
+    <main>
+        <div class="camera-section">
+            <video id="video" autoplay muted></video>
+            <button id="startBtn">Start Detection</button>
+        </div>
+
+        <div class="emotion-display">
+            <h2>Detected Emotion:</h2>
+            <p id="emotion">😊 Waiting...</p>
+        </div>
+
+        <div class="about">
+
+        </div>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 EmotionTech Pvt Ltd. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
