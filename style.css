@@ -1,7 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background: linear-gradient(to right, #dbeafe, #f0f4ff);
+  background: linear-gradient(to top, #3b6aa7, #f0f4ff);
   margin: 0;
   padding: 0;
 }
@@ -9,11 +9,12 @@ body {
 header {
   padding: 20px;
   background-color: #076dac;
-  color: white;
+  color: black;
 }
 
 .camera-section {
   margin-top: 30px;
+  padding: 0%;
 }
 
 video {
@@ -44,9 +45,8 @@ footer {
   background-color: #e0e7ff;
 }
 
-.notice{
+a{
     font-size: 0.9rem;
-    color: #555;
-    padding: 10px;
-    margin-left: auto;
+    color: #b79e10;
+    margin: 50px ;
 }

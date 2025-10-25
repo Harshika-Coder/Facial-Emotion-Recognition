@@ -7,34 +7,49 @@
     <title>Facial Emotion Recognition</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-  <!-- Facial Emotion Recognition -->
+<!-- Facial Emotion Recognition -->
+
 <body>
     <header>
         <h1>Facial Emotion Recognition</h1>
         <p>Detect emotions in real time using your webcam</p>
-       <div class="notice">
-        <a href="camera-section">Home</a>
-        <a href="about">About</a>
-        <a href="contact">Contact</a>
-       </div> 
+        <nav>
+            <ol>
+                <a href="#camera-section">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </ol>
+        </nav>
+        <div class="notice">
+            <p>Note: Please allow camera access when prompted.</p>
+        </div>
     </header>
 
+    <br />
+    <br />
+
     <main>
-        <div class="camera-section">
+        <section id="camera-section">
             <video id="video" autoplay muted></video>
+            <br />
             <button id="startBtn">Start Detection</button>
-        </div>
 
         <div class="emotion-display">
             <h2>Detected Emotion:</h2>
             <p id="emotion">😊 Waiting...</p>
         </div>
+        </section>
 
-        <div class="about">
+        <section id="about">
+            <h2>About</h2>
+            <p>
+                Facial Emotion Recognition is a technology that analyzes facial expressions to identify human emotions
+                like happiness, sadness, anger, or surprise. It combines computer vision and machine learning to help
+                systems respond more empathetically and intelligently.
+            </p>
+        </section>
 
-        </div>
-
-        <section class="contact">
+        <section id="contact">
             <h2>Contact Us</h2>
             <form id="contactForm">
                 <label for="name">Name:</label>
@@ -44,9 +59,11 @@
                 <input type="email" id="email" name="email" required />
 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-
+                <textarea id="message" style="width: auto; height: auto; " name="message" required></textarea>\
+                <br />
                 <button type="submit">Send</button>
+            </form>
+        </section>
     </main>
 
     <footer>
