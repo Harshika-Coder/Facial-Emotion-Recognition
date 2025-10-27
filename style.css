@@ -36,7 +36,7 @@ button {
 
 .emotion-display {
   margin-top: 30px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 footer {
@@ -49,4 +49,19 @@ a{
     font-size: 0.9rem;
     color: #b79e10;
     margin: 50px ;
+}
+
+textarea{
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #403c88;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+header h1{
+  color: #D3D3D3;
+}
+h2{
+  color: #D3D3D3;
 }
